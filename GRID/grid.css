@@ -1,0 +1,28 @@
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 400px 300px ;
+    grid-template-rows: 200px 300px;
+    height: 80vh;
+    width: 50vw;
+    margin: 0 auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.elem1{
+    background-color: red;
+    column-span: 3;
+}
+.elem2{
+    background-color: lightblue;
+}
+.elem3{
+    background-color: green;
+}
+.elem4{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 140px 140px;
+    grid-template-columns: 300px;
+    row-gap: 20px;
+}
