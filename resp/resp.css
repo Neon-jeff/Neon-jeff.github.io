@@ -1,0 +1,49 @@
+ @import url('https://fonts.google.com/specimen/Poppins'); 
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    background-image: url('desk.png');
+    background-position: top;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%) ;
+}
+.container{
+    display: flex;
+    justify-items: center;
+    width: 80vw;
+    margin: 100px auto;
+
+}
+.box{
+    width: 40%;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.form-head{
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px 170px 10px 30px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.form{
+    background-color: whitesmoke;
+    height: 370px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 150px 10px 65px;
+    margin-left: 50px;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    color: whitesmoke;
+}
+.field{
+    padding-top: 20px;
+}
